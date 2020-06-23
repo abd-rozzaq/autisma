@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Autisma</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Kecil -->
+    <!-- As a link -->
+    <nav class="navbar navbar-kecil">
+        <div class="container d-flex justify-content-end p-0">
+            <a class="navbar-brand" href="#">(+62) 87-7899-9787</a>
+        </div>
+    </nav>
+    <!-- Akhir Navbar Kecil-->
+
+    <!-- Navbar Utama -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container navbar-utama">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo/Autisma.svg" alt="Autisma">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-kategory.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-tentang-kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-blog.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="header-icon d-flex justify-content-between align-content-center align-items-center">
+                    <a href="halaman-akun.html#list-favorit-list" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="28" height="27" viewBox="0 0 29 24">
+                            <g transform="translate(-906.5 -72)">
+                                <rect width="28" height="27" transform="translate(907 72)" fill="#fff" opacity="0" />
+                                <path
+                                    d="M27.241,6.579a7.1,7.1,0,0,0-10.049,0L15.823,7.948,14.454,6.579A7.106,7.106,0,1,0,4.4,16.628L5.773,18,15.823,28.047,25.872,18l1.369-1.369a7.1,7.1,0,0,0,0-10.049Z"
+                                    transform="translate(905.177 69.003)" fill="none" stroke="#373f50"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="halaman-akun.html" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="27" height="29" viewBox="0 0 27 29">
+                            <g transform="translate(-954 -71)">
+                                <rect width="27" height="27" transform="translate(954 72)" fill="#fff" opacity="0" />
+                                <g transform="translate(956 72)">
+                                    <path
+                                        d="M30,31.642V28.595A6.048,6.048,0,0,0,24,22.5H12a6.048,6.048,0,0,0-6,6.095v3.047"
+                                        transform="translate(-6 -4.642)" fill="none" stroke="#373f50"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                    <path
+                                        d="M23.811,10.595a6,6,0,0,1-5.906,6.095A6,6,0,0,1,12,10.595,6,6,0,0,1,17.906,4.5,6,6,0,0,1,23.811,10.595Z"
+                                        transform="translate(-5.905 -4.5)" fill="none" stroke="#373f50"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="halaman-cart.html" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="27" height="30" viewBox="0 0 27 30">
+                            <g transform="translate(-1001 -70)">
+                                <rect width="27" height="27" transform="translate(1001 71)" fill="#fff" opacity="0" />
+                                <g transform="translate(1004 71)">
+                                    <g transform="translate(-4.5 -2.018)" fill="none" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M6.9,9,4.5,26.516a2.454,2.454,0,0,0,2.4,2.5H23.727a2.454,2.454,0,0,0,2.4-2.5L23.727,9Z"
+                                            stroke="none" />
+                                        <path
+                                            d="M 6.903373718261719 9.000001907348633 L 4.499994277954102 26.51592254638672 C 4.499994277954102 27.89789199829102 5.576034545898438 29.01820182800293 6.903373718261719 29.01820182800293 L 23.72702407836914 29.01820182800293 C 25.05437469482422 29.01820182800293 26.13040542602539 27.89789199829102 26.13040542602539 26.51592254638672 L 23.72702407836914 9.000001907348633 L 6.903373718261719 9.000001907348633 M 6.903373718261719 7.000001907348633 L 23.72702407836914 7.000001907348633 C 24.72653579711914 7.000001907348633 25.57258415222168 7.737892150878906 25.70845413208008 8.728122711181641 L 28.11183547973633 26.24404144287109 C 28.12420463562012 26.33414077758789 28.13040542602539 26.42498207092285 28.13040542602539 26.51592254638672 C 28.13040542602539 28.99849319458008 26.15505409240723 31.01820182800293 23.72702407836914 31.01820182800293 L 6.903373718261719 31.01820182800293 C 4.475343704223633 31.01820182800293 2.499994277954102 28.99849319458008 2.499994277954102 26.51592254638672 C 2.499994277954102 26.42498207092285 2.506195068359375 26.33414077758789 2.518564224243164 26.24404144287109 L 4.921945571899414 8.728122711181641 C 5.057815551757813 7.737892150878906 5.903863906860352 7.000001907348633 6.903373718261719 7.000001907348633 Z"
+                                            stroke="none" fill="#373f50" />
+                                    </g>
+                                    <path d="M21.8,19.9a4.9,4.9,0,0,0-9.8,0" transform="translate(-6.085 -15)"
+                                        fill="none" stroke="#373f50" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Searchbar -->
+    <div class="container megamenu-kategori mt-3">
+        <div class="row">
+            <div class="col-auto">
+                <nav class="navbar navbar-expand bg-transparent m-0 p-0">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link d-flex align-items-center justify-content-center" href="#"
+                                    id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <i class="mr-3 p-0" style="margin-top: -.525rem;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24.500" height="17.300"
+                                            viewBox="0 0 24.501 17.334">
+                                            <g transform="translate(-3 -7.5)">
+                                                <path d="M4.5,18H26" transform="translate(0 -1.833)" fill="none"
+                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="3" />
+                                                <path d="M4.5,9H26" fill="none" stroke="#fff" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="3" />
+                                                <path d="M4.5,27H26" transform="translate(0 -3.666)" fill="none"
+                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="3" />
+                                            </g>
+                                        </svg></i>
+                                    Kategori
+                                </a>
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                    <div class="row mx-auto pt-3 align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/alat sensorik.png">
+                                                <p class="mt-2" style="font-weight: 700;">Alat Sensorik</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/produk menenangkan.png">
+                                                <p class="mt-2" style="font-weight: 700;">Produk Menenangkan</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/pembantu fokus.png">
+                                                <p class="mt-2" style="font-weight: 700;">Pembantu Fokus</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/menulis.png">
+                                                <p class="mt-2" style="font-weight: 700;">Menulis</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/mainan aksi.png">
+                                                <p class="mt-2" style="font-weight: 700;">Mainan Aksi</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/ruang sensorik.png">
+                                                <p class="mt-2" style="font-weight: 700;">Ruang Sensorik</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row p-4 btn-semua-produk" style="margin-top: -1rem;">
+                                        <div class="col">
+                                            <a class="btn btn-block" style="border: 1px solid #373f50;
+                                                border-radius: 5px;" href="halaman-kategory.html" role="button">Semua
+                                                Produk</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col form-group pl-0">
+                <input type="text" class="form-control searchbar-kategori" placeholder="Cari produk...">
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Navbar Utama-->
+
+    <!-- Header -->
+    <div class="container header-utama-new mt-2 d-flex">
+        <div class="row d-flex justify-content-between header-big-image">
+            <div class="col d-none d-lg-block col-sm-12 col-lg-7">
+                <div class="bg-white header-1-new" style="margin-bottom: 20px;">
+                    <h1 style="transform: translate(1.775rem,1.875rem);">Gratis Ongkir!</h1>
+                    <h5 style="transform: translate(1.775rem,1.875rem);">Min. Belanja 200RB</h5>
+                    <p style="transform: translate(1.775rem,1.875rem); color: #373f50;">Berlaku Untuk Seluruh
+                        Wilayah <br> Indonesia
+                    </p>
+                    <a style="transform: translate(1.775rem,1.875rem);" class="btn btn-secondary"
+                        href="halaman-kategory.html">Selengkapnya</a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 4.webp" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block col-sm col-lg-5">
+                <div class="bg-light header-2-new">
+                    <h1 style="transform: translate(1.625rem,1.875rem);">Deals Of The Day</h1>
+                    <h5 style="transform: translate(1.625rem,1.875rem);">Cashback 50%</h5>
+                    <a style="transform: translate(1.625rem,1.875rem);"
+                        class="btn btn-secondary d-flex align-items-center"
+                        href="halaman-kategory.html">Selengkapnya<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                            width="18.768" height="19.596" viewBox="0 0 18.768 19.596">
+                            <g transform="translate(-6.5 -6.086)">
+                                <path d="M7.5,18H24.268" transform="translate(0 -2.116)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path d="M18,7.5l8.384,8.384L18,24.268" transform="translate(-2.116)" fill="none"
+                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg></a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 1.webp" class="img-fluid"></a>
+                </div>
+
+
+                <div class="bg-light header-3-new text-right" style="margin-top: 20px;">
+                    <h1 style="transform: translate(-2rem,1.875rem);">Harga Lebih Murah
+                    </h1>
+                    <h5 style="transform: translate(-2rem,1.875rem);">Diskon hingga 70%</h5>
+                    <a style="transform: translate(17.175rem,3.125rem);"
+                        class="btn btn-secondary d-flex align-items-center"
+                        href="halaman-kategory.html">Selengkapnya<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                            width="18.768" height="19.596" viewBox="0 0 18.768 19.596">
+                            <g transform="translate(-6.5 -6.086)">
+                                <path d="M7.5,18H24.268" transform="translate(0 -2.116)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path d="M18,7.5l8.384,8.384L18,24.268" transform="translate(-2.116)" fill="none"
+                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg></a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 5.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Akhir Header -->
+
+
+    <div id="carouselExampleControls" class="carousel slide d-lg-none" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="container">
+                <div class="carousel-item active">
+                    <img src="img/header/header big 1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/header big 2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/header big 3.jpg" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-left.svg"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-right.svg"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Populer -->
+    <section class="populer p-5">
+        <div class="container list-gambar-produk">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3 class="judul-produk">Paling Banyak Dicari</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg>
+                        </button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p1.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Ball Pools</h5>
+                                    <p>IDR 1.900.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p2.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Big Balancing Board</h5>
+                                    <p>IDR. 850.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p3.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">b-Calm Headphones</h5>
+                                    <p>IDR. 670.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-sm-4 mt-lg-0 mt-md-0">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p4.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Therapy Swing</h5>
+                                    <p>IDR. 290.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p5.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Bolster Swing</h5>
+                                    <p>IDR. 120.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p6.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Carousel Spinning Chair</h5>
+                                    <p>IDR. 560.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p7.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Concentration Rocker</h5>
+                                    <p>IDR. 360.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                    <figure class="figure">
+                        <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                            title="Tambah ke favorit" data-original-title="Add to wishlist">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g transform="translate(-431 -863)">
+                                    <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                        opacity="0.1" />
+                                    <path
+                                        d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                        transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                        stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.3" />
+                                </g>
+                            </svg></button>
+                        <div class="img-hover">
+                            <a href="halaman-produk.html"> <img src="img/populer/p8.jpg" class="figure-img img-fluid">
+                                <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                    <h5 style="text-decoration: none;">Crash Pad 5'x5'</h5>
+                                    <p>IDR. 367.000</p>
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+    </section>
+    <!-- AKhir Populer -->
+
+    <!-- Inspirasi hadiah -->
+    <div class="container inspirasi-hadiah">
+        <div class="row">
+            <div class="col mb-2">
+                <h3>Inspirasi Hadiah</h3>
+            </div>
+        </div>
+    </div>
+    <div id="carouselInspirasiHadiah" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="container carousel-inspirasi-hadiah">
+                <div class="carousel-item active">
+                    <div class="image-hadiah-carousel d-flex justify-content-center">
+                        <div class="control d-flex justify-content-between">
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/Balita.jpg" class="d-block"></div>
+                            </a>
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/Prasekolah.jpg" class="d-block"></div>
+                            </a>
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/Sekolah Dasar.jpg" class="d-block">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="image-hadiah-carousel d-flex justify-content-center">
+                        <div class="control d-flex justify-content-between">
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/Remaja.jpg" class="d-block"></div>
+                            </a>
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/200rb.jpg" class="d-block"></div>
+                            </a>
+                            <a href="halaman-kategory.html">
+                                <div class="col-4"><img src="img/inspirasi hadiah/Balita.jpg" class="d-block"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="control-arrow"></div>
+        <a class="carousel-control-prev panah-carousel-kiri-hadiah" href="#carouselInspirasiHadiah" role="button"
+            data-slide="prev">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-left.svg"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next panah-carousel-kanan-hadiah" href="#carouselInspirasiHadiah" role="button"
+            data-slide="next">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-right.svg"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+
+    <!-- Produk Rekomendasi -->
+    <div class="container produk-rekomendasi" style="margin-top: 5rem;">
+        <div class="row d-flex justify-content-between">
+            <div class="col-5 mb-2 col-sm-4 col-md-7 col-lg-9">
+                <h3>Rekomendasi Untuk Anda</h3>
+            </div>
+
+            <div class="col-7 col-sm-7 col-md-5 col-lg-3 d-flex">
+                <div class="control-arrow">
+                    <a class="carousel-control-prev panah-carousel-kiri-home" href="#carouselProdukRekomendasi"
+                        role="button" data-slide="prev">
+                        <span aria-hidden="true"><img src="img/single product/arrow-left-small.svg"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next panah-carousel-kanan-home" href="#carouselProdukRekomendasi"
+                        role="button" data-slide="next">
+                        <span aria-hidden="true"><img src="img/single product/arrow-right-small.svg"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselProdukRekomendasi" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProdukRekomendasi" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProdukRekomendasi" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="container carousel-rekomendasi-home">
+                <div class="carousel-item active">
+                    <div class="control d-flex justify-content-between">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p1.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">On The Go Swing</h5>
+                                            <p>IDR. 1.890.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p2.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Squeezy Canoe</h5>
+                                            <p>IDR. 680.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p3.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Foam Gymnasium</h5>
+                                            <p>IDR. 970.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 d-sm-none col-md-3 d-md-block col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p4.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Hilltops-Set of 5</h5>
+                                            <p>IDR. 300.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="control d-flex justify-content-between">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p5.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Bolster Swing</h5>
+                                            <p>IDR. 120.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p6.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Carousel Spinning Chair</h5>
+                                            <p>IDR. 560.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p7.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Concentration Rocker</h5>
+                                            <p>IDR. 360.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 d-sm-none col-md-3 d-md-block col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p8.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Crash Pad 5'x5'</h5>
+                                            <p>IDR. 367.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Tentang Kami -->
+    <section class="tentang-kami">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="order-2 col-9 order-sm-2 col-sm-5 col-lg-6 order-lg-2">
+                    <h1>Tentang kami</h1>
+                    <p>
+                        Autisma dilahirkan dengan mimpi untuk membuat dunia sedikit lebih mudah bagi para individu
+                        dengan cara menyediakan alat yang membantu membangun keterampilan. Alat kami dirancang untuk
+                        membantu siswa memahami apa yang diharapkan dari mereka di kelas, mengelola kecemasan mereka,
+                        dan mendukung fokus.
+                    </p>
+                    <a href="halaman-tentang-kami.html" class="btn">Selengkapnya <img
+                            src="img/menubar/icon-arrow-right.svg"></a>
+                </div>
+                <div class="order-1 col-4 order-sm-1 col-sm-9 col-lg-6 order-lg-2 mb-5 image-tentang-kami">
+                    <img src="img/tentang kami/foto tentang kami.png">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- Akhir Tentang Kami -->
+
+    <!-- Keunggulan -->
+    <section class="keunggulan">
+        <div class="container pb-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/win.svg" alt="">
+                    <h3>Shop to help</h3>
+                    <p>95% profit disumbangkan kepada organisasi autisme di seluruh Indonesia</p>
+                </div>
+
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/credit-card.svg" alt="">
+                    <h3>Pembayaran aman</h3>
+                    <p>Metode pembayaran yang beragam dan terjamin aman</p>
+                </div>
+
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/support.svg" alt="">
+                    <h3>Layanan bantuan 24 jam</h3>
+                    <p>Bantuan sepanjang waktu untuk pengalaman berbelanja yang lancar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Keunggulan -->
+
+
+    <!-- Footer -->
+    <footer class="bg-dark pt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-3 col-sm-3 col-md-3">
+                    <img src="img/logo/Autisma.svg" alt="">
+                </div>
+
+                <div class="col-4 col-sm-4 col-md-5">
+                    <a class="nav-link active" href="#">Jobs</a>
+                    <a class="nav-link" href="#">Developer</a>
+                    <a class="nav-link" href="#">Terms</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+
+                <div class="col-5 col-sm-5 col-md-3 sosmed text-right">
+                    <p>(+62) 87-7899-9787</p>
+                    <p>info@autisma.com</p>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-facebook.svg" class="ml-0"></a>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-instagram.svg" class="ml-3"></a>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-twitter.svg" class="ml-3"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col text-center copyright">
+                    <p>All rights reserved by Autisma 2019.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- AKhir Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
