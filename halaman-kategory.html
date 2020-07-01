@@ -121,20 +121,7 @@
                                 <a class="nav-link d-flex align-items-center justify-content-center" href="#"
                                     id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                    <i class="mr-3 p-0" style="margin-top: -.525rem;"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24.500" height="17.300"
-                                            viewBox="0 0 24.501 17.334">
-                                            <g transform="translate(-3 -7.5)">
-                                                <path d="M4.5,18H26" transform="translate(0 -1.833)" fill="none"
-                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                                    stroke-width="3" />
-                                                <path d="M4.5,9H26" fill="none" stroke="#fff" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="3" />
-                                                <path d="M4.5,27H26" transform="translate(0 -3.666)" fill="none"
-                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                                    stroke-width="3" />
-                                            </g>
-                                        </svg></i>
+                                    <img class="mr-3 p-0" src="img/kategori/burger.svg">
                                     Kategori
                                 </a>
                                 <div class="dropdown-menu " aria-labelledby="navbarDropdown">
@@ -289,19 +276,20 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <div class="row d-flex justify-content-between mb-5">
-                        <div class="col-auto d-flex align-items-center">
-                            <h5 style="font-size: 18px;" class="m-0">Sort By</h5>
-                            <div class="dropdown-quantity px-3">
-                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                                <select class="custom-select mr-sm-3" id="inlineFormCustomSelect">
-                                    <option value="1">Populer</option>
-                                    <option value="2">Paling Laris</option>
-                                    <option value="3">Harga Terendah</option>
-                                    <option value="4">Harga Tertinggi</option>
-                                    <option value="5">Terbaru</option>
-                                </select>
-                            </div>
+                    <div class="d-flex justify-content-between align-items-center mb-5">
+                        <div class="col-4 col-sm-3 col-md-4 col-lg-2 mt-2">
+                            <h5 style="font-size: 18px;">Sort by</h5>
+                        </div>
+                        <div class="col-8 col-sm-4 col-md-4 col-lg-3 pl-0 dropdown-quantity"> <label
+                                class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                            <select class="custom-select mr-sm-3" id="inlineFormCustomSelect">
+                                <option value="1">Populer</option>
+                                <option value="2">Paling Laris</option>
+                                <option value="3">Harga Terendah</option>
+                                <option value="4">Harga Tertinggi</option>
+                                <option value="5">Terbaru</option>
+                            </select></div>
+                        <div class="d-none d-sm-block col-sm-4 col-md-4 col-lg-7">
                             <p class="m-0">dari 289 produk</p>
                         </div>
                     </div>
@@ -375,9 +363,10 @@
 
                     <hr>
 
-                    <div class="row mt-4">
-                        <div class="d-none d-md-block">
-                            <nav class="d-flex justify-content-between align-items-center" aria-label="...">
+
+                    <div class="d-none d-md-block">
+                        <nav class="d-flex justify-content-between align-items-center" aria-label="...">
+                            <div class="col">
                                 <ul class="pagination kontrol-pagination">
                                     <li class="page-item disabled">
                                         <a class="page-link bg-transparent border-0 p-0" href="#" tabindex="-1"
@@ -385,6 +374,8 @@
                                                     src="img/kategori/feather-arrow-left.svg"></span>Sebelumnya</a>
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="col d-flex justify-content-center">
                                 <ul class="pagination nomor-pagination">
                                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item active" aria-current="page">
@@ -394,39 +385,42 @@
                                     <li class="page-item"><a class="page-link" href="#">4</a></li>
                                     <li class="page-item"><a class="page-link" href="#">5</a></li>
                                 </ul>
-                                <ul class="pagination kontrol-pagination">
+                            </div>
+                            <div class="col">
+                                <ul class="pagination kontrol-pagination d-flex justify-content-end">
                                     <li class="page-item">
                                         <a class="page-link bg-transparent border-0 p-0" href="#">Selanjutnya <span
                                                 class="ml-2"><img src="img/kategori/feather-arrow-right.svg"></span>
                                         </a>
                                     </li>
                                 </ul>
-                            </nav>
-                        </div>
+                            </div>
+                        </nav>
                     </div>
-                    <div class="row pagination-small">
-                        <div class="d-md-none d-flex justify-content-center">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+
+
+                    <div class="d-md-none d-flex justify-content-center pagination-small">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
+
                 </div>
             </div>
         </div>
