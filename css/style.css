@@ -427,9 +427,6 @@ box-shadow: none;
     margin: .625rem 0;
 }
 
-.product-description .nav-item {
-    width: 150px    
-}
 
 .product-description .nav-link.active {
     font-family: 'nunito_regular' !important;
@@ -449,10 +446,10 @@ color: rgba(156, 156, 156, 1);
 letter-spacing: .0325rem;
 }
 
-.product-description .tab-content {
+.product-description .tab-content p {
     color: #4b566b !important;
-    width: 56rem;
     line-height: 1.7;
+    
 }
 
 /* Review */
