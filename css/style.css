@@ -337,6 +337,7 @@ footer .copyright {
     text-decoration: none;
 }
 
+
 .photo-thumb img {
     display: block;
     position: relative;
@@ -344,10 +345,16 @@ footer .copyright {
     border: 1px solid #e3e9ef;
     border-radius: .3125rem;
     text-decoration: none !important;
-    max-width: 100%;
+    width: auto;
     height: auto;
     opacity: .6;
 }
+
+@media only screen and (max-width: 600px) {
+    .photo-thumb img {
+        width: 3rem;
+    }
+        }
 
 .photo-thumb img:hover {
     opacity: 1;
@@ -755,7 +762,7 @@ margin-top: 2rem;
 }
 
 .nomor-pagination .page-item {
-    margin: .715rem;
+    padding: .515rem;
 }
 
 .nomor-pagination .page-item.active a {
@@ -887,8 +894,9 @@ margin-top: -.455rem;
     box-shadow: 0px 5px 10px #D5D5D533;
     border-radius: 7px;
     border-style: none;
-    height: 186px;
+    height: 190px;
 }
+
 
 .detail-alamat {
     position: absolute;
@@ -911,7 +919,6 @@ fill-opacity: 1;
     box-shadow: 0px 0px 30px rgba(55, 63, 80, .1);
 }
 
-.modal-footer 
 
 /* Tentang Kami */
 .tentang-autisma {
