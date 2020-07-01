@@ -1002,7 +1002,7 @@ margin: auto;
 
  @media (max-width: 576px) { 
     .daftar-blog-post-kanan a, .daftar-blog-webinar-kanan a {
-           margin-bottom: 1rem;
+           margin-bottom:1rem;
     }
  }
 
