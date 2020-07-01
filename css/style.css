@@ -273,15 +273,6 @@ fill-opacity: 1;
 }
 
 
-footer .col-4 {
-flex-wrap: wrap;
-}
-
-footer .col-md-5 {
-    display: flex;
-    justify-content: center;
-}
-
 footer p, a {
     color: #FFFFFF;
 }
@@ -670,19 +661,12 @@ transform: translateX(-1.625rem);
             transform: translateX(6.625rem);   
              }
         }
-}
 
 
 .carousel-rekomendasi-home .carousel-item img {
         box-shadow: 0px 5px 10px #D5D5D51A;
         border-radius: 10px;
     }
-
-@media only screen and (max-width: 600px) {
-        .produk-rekomendasi h3 {
-          font-size: 1.25rem;
-        }
-}
 
 /* Cart */
 .cart-header h3 {
