@@ -1,1225 +1,928 @@
-/* Google font */
-@font-face {
-    font-family: 'baloo_2semibold';
-    src: url('../font/baloo2-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'nunito_regular';
-    src: url('../font/nunito-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'nunito_semibold';
-    src: url('../font/nunito-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: 'nunito_regular', Arial, Helvetica, sans-serif;
-    background-color: #F7F7F7;
-    color: #373f50;
-}
-
-.navbar-kecil a {
-font-size: 1rem;
-padding: 0px 0px;
-}
-
-.navbar-kecil a:hover {
-color: #F28482;
-}
-
-.navbar-kecil {
-    padding: 8px 0;
-    background-color: #373f50 !important;
-}
-
-.navbar {
-    background-color: #fff;
-    font-size: 20px;
-}
-
-.navbar-utama .nav-item {
-padding: 15px;
-}
-
-.navbar-utama .nav-item a {
-    color: #373f50 !important;
-}
-
-.nav-item.active a, .megamenu {
-    color: #F28482 !important;
-    font-family: 'nunito_semibold';
-}
-
-.icon-header {
-border-radius: 300px;
-width: 60px;
-height: 60px;
-}
-
-.icon-header:hover {
-background-color: rgba(125, 135, 156, .1);
-}
-
-.megamenu-kategori .nav-link {
-    padding: .625rem;
-    background: #373f50;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 20px;
-    width: 12rem;
-}
-
-.megamenu-kategori .dropdown-menu {
-  position: absolute !important;   
-border-style: none;
-box-shadow: 0px 10px 20px #212A544D;
-border-radius: 10px;
-}
-
-.navbar-expand .navbar-nav .dropdown-menu {
-    position: absolute;
-    width: max-content;
-}
-
-.navbar-expand .navbar-nav .dropdown-menu a {
-    color: #373f50;
-opacity: .9;
-}
-
-.navbar-expand .navbar-nav .dropdown-menu a:hover {
-    background-color: transparent;
-    color: #373f50;
-    opacity: 1;
-    transition: .3s;
-}
-
-.searchbar-kategori {
-    height: 3.125rem;
-    width: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 3px 10px #212A540D;
-    border-radius: 10px;
-    opacity: 1;
-    border-style: none;
-    font-size: 18px;
-    padding-left: 20px;
-}
-
-.form-control:focus {
-    -webkit-box-shadow: 0px 0px 8px rgba(242, 132, 130, .5);
-    box-shadow: 0px 0px 8px rgba(242, 132, 130, .5);
-    border: 1px solid #F28482;
-}
-
-/* breadcrumb */
-.breadcrumb li a {
-    color: #373f50;
-}
-
-.header-atas {
-    margin-top: 100px;
-}
-
-.judul-produk, .tentang-kami h1, .text-rekomendasi h3, .inspirasi-hadiah h3, .produk-rekomendasi h3 {
-    font-family: 'baloo_2semibold';
-    font-size: 1.75rem;
-    color: #373f50;
-}
-
-.btn-wishlist.btn-sm, .btn-group-sm.btn-wishlist.btn {
-    width: 2rem;
-    height: 2rem;
-}
-
-.btn-wishlist, .figure .badge {
-    position: absolute;
-    top: .75rem;
-    left: 1.8rem;
-    z-index: 5;
-}
-
-.btn-wishlist svg circle:hover, .btn-wishlist svg path:hover {
-stroke: #f28482;
-fill: #f28482;
-fill-opacity: 1;
-}
-
-.btn-wishlist {
-    width: 2.75rem;
-    height: 2.75rem;
-    padding: 0 !important;
-    transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out,border-color 0.25s ease-in-out,box-shadow 0.2s ease-in-out;
-    border: 0;
-    border-radius: 50%;
-    background-color: #f3f5f9;
-    color: #373f50;
-    text-align: center;
-}
-
-.figure-img {
-    box-shadow: 0px 5px 20px rgba(213, 213, 213, 0.1);
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.figure a:hover {
-    text-decoration: none !important;
-}
-
-.carousel-item a:hover {
-    text-decoration: none !important;
-}
-
-.figure h5, .carousel-rekomendasi-home h5 {
-    color: #373f50;
-    font-family: 'nunito_semibold';
-    font-size: 1.2rem;
-    padding-left: 0 !important;
-}
-
-.figure p, .carousel-rekomendasi-home p {
-    color: #7d879c;
-    font-family: 'nunito_regular';
-    font-size: 1rem;
-}
-
-.figure-img:hover {
-    box-shadow: 0px 5px 40px rgba(125, 135, 156, .2);
-}
-
-.img-hover img:hover {
-    box-shadow: 0px 5px 40px rgba(125, 135, 156, .2) !important;
-}
-
-.product-categori-list img:hover {
-    box-shadow: 0px 5px 40px rgba(125, 135, 156, .2);
-}
-
-.tentang-kami {
-    margin-top: 2.5rem;
-    padding-bottom: 5rem;
-}
-
-
-
-.border-bottom {
-    border-bottom: 1px solid #e3e9ef !important;
-}
-
-.tentang-kami p {
-    color: #7d879c;
-    margin-top: 1.75rem;
-    line-height: 1.75em;
-    font-size: 1.075rem;
-}
-
-.tentang-kami a  {  
-    background: rgba(242, 132, 130, .87);
-    box-shadow: 0px 7px 10px rgba(242, 132, 130, .2);
-    color: #FFFFFF;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: .825rem 1.95rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 100rem;
-    border-style: none;
-    margin-top: 3.5rem;
-}
-
-.btn img {
-    display: inline-block;
-    margin-top: -.2975rem;
-    vertical-align: middle;
-    width: 1rem;
-    margin-left: .265rem;
-}
-
-.tentang-kami a:hover {
-    background-color: rgba(242, 132, 130, 1);
-    color: #fff;
-    box-shadow: 0px 7px 15px rgba(242, 132, 130, .6);
-    transition: 0.3s;
-    }
-
-.tentang-kami hr {
-        padding-bottom: -.35rem !important;
-        margin-top: 4.5rem !important;
-        margin: 0;
-        border: 0;
-        border-top: 1px solid #e3e9ef;
-    }
-
-.keunggulan h3 {
-    margin-top: 1.75rem;
-    font-family: 'baloo_2semibold';
-    font-size: 1.35rem;
-    color: #373f50;
-}
-
-.keunggulan p {
-    margin-top: .95rem;
-    font-size: .935rem;
-    color: #7d879c;
-}
-
-
-footer p, a {
-    color: #FFFFFF;
-}
-
-footer a:hover {
-    color: #F28482 ;
-}
-
-.bg-dark {
-    background-color: #373f50 !important;
-}
-
-
-footer img {
-    justify-content: space-between;
-}
-
-footer hr {
-    padding-bottom: .75rem !important;
-    margin-top: 4.5rem !important;
-    margin: 0;
-    border: 0;
-    border-top: 1px solid #e3e9ef;
-    opacity: .15;
-}
-
-footer .copyright {
-    opacity: .5;
-}
-
-/* Single Product */
-.single-product {
-    margin-top: 1.35rem;
-}
-
-/* .bg-light {
-    background-color: #fff !important;
-    border-radius: .7375rem !important;
-    height: 67rem;
-    box-shadow: 0px 10px 10px rgba(125, 135, 156, .015);
-} */
-
-
-
-.single-product .bg-light {
-    background-color: #fff !important;
-    border-radius: .7375rem !important;
-
-    box-shadow: 0px 10px 10px rgba(125, 135, 156, .015);
-}
-
-
-/* Gallery */
-.photo-thumb.active {
-    opacity: 1;
-    background-color: transparent !important;
-}
-
-.photo-thumb.active img {
-    opacity: 1;
-    border: 1px solid  #F28482;
-    text-decoration: none;
-}
-
-.photo-thumb img {
-    display: block;
-    position: relative;
-    transition: border-color 0.2s ease-in-out;
-    border: 1px solid #e3e9ef;
-    border-radius: .3125rem;
-    text-decoration: none !important;
-    max-width: 100%;
-    height: auto;
-    opacity: .6;
-}
-
-.photo-thumb img:hover {
-    opacity: 1;
-    transition: 0.3s ease-in-out;
-    border: 1px solid  #F28482 ;
-}
-
-.product-thumbnail a:hover {
-    text-decoration: none;
-}
-
-.single-product .figure-img:hover {
-box-shadow: none;
-}
-
-.product-name {
-    padding-left: 3rem !important;
-    margin-top: 1.125rem;
-}
-
-.jaminan {
-    flex-wrap: wrap;
-}
-
-
-.form-cart {
-    justify-content: center;
-}
-
-.product-name .bg-dark {
-    background-color: #F7F7F7 !important;
-    border-radius: 10px;
-    width: 100%;
-}
-
-.product-name p {
- font-size: .95rem;
- opacity: 0.7;
-}
-
-.product-name h3 {
- font-size: 2.15rem;
-}
-
-.product-name h4 {
- font-size: 1.25rem;
-}
-
-.dropdown-quantity .custom-select {
-    height: calc(1.5em + 1.35rem + 2px);
-    padding: .625rem 2rem .625rem 1rem;
-    border-radius: .3125rem; 
-    border-style: none;
-    box-shadow: 0px 5px 10px rgba(125, 135, 156, .1);
-    font-family: 'nunito_semibold';
-}
-
-.btn-cart .btn {
-    display: block;
-    width: 100%;
-    padding: .625rem 1.375rem;
-    border-radius: .3125rem;
-    background-color: rgba(242, 132, 130, .8);
-    border-style: none;
-    box-shadow: 0px 5px 10px rgba(242, 132, 130, .30);
-    color: #fff;
-    transition: .3s;
-    font-size: 18px;
-}
-
-.btn-cart .btn:hover {
-      background-color: #F28482;
-    box-shadow: 0px 5px 20px rgba(242, 132, 130, .30);
-}
-
-.form-cart {
-    margin: .625rem 0;
-}
-
-.product-description .nav-item {
-    width: 150px    
-}
-
-.product-description .nav-link.active {
-    font-family: 'nunito_regular' !important;
-    font-weight: 900 !important;
-font-size: 1rem;
-color: #373f50;
-background: rgba(247, 247, 247, 1);
-border-style: none;
-padding: .625rem;
-}
-
-.product-description .nav-link {
-    border: 1px solid rgba(156, 156, 156, .35);
-    border-radius: 10px;
-padding: .625rem;
-color: rgba(156, 156, 156, 1);
-letter-spacing: .0325rem;
-}
-
-.product-description .tab-content {
-    color: #4b566b !important;
-    width: 56rem;
-    line-height: 1.7;
-}
-
-/* Review */
-.product-review {
-    display: flex !important;
-}
-
-.product-review h5 {
-    color: #373f50;
-    font-family: 'nunito_regular';
-    font-weight: 900;
-    font-size: 1rem;
-    margin-top: 5px;
-}
-
-.product-review h6 {
-    color: #7d879c;
-    font-size: 13px;
-}
-
-.product-review .star {
-    margin-left: -4.5rem;
-    margin-bottom: 1.75rem;
-}
-
-.product-review p {
-   font-size: 15px;
-}
-
-.product-review .review-scroll, .deskripsi-scroll {
-    height: 22.75rem;
-    overflow: auto !important;
-}
-
-.review-button {
-    padding: .625rem 1.375rem;
-    background: rgba(242, 132, 130, .8);
-    box-shadow: 0px 5px 10px rgba(242, 132, 130, .30);
-    border-radius: 10px;
-    color: white;
-    border-style: none;
-    transition: .3s;
-}
-
-.review-button:hover {
-    padding: .625rem 1.375rem;
-    background: rgba(242, 132, 130, 1);
-    box-shadow: 0px 5px 15px rgba(242, 132, 130, .50);
-    border-radius: 10px;
-    color: white;
-    border-style: none;
-}
-
-.review-column .line-1, .line-2, .line-3, .line-4, .line-5 {
-    display: flex !important;
-    margin-bottom: -1.55rem;
-    }
-
-.review-column .line-1 .progress, .line-2 .progress, .line-3 .progress, .line-4 .progress, .line-5 .progress {
-    width: 100% !important;
-    height: 5px;
-    margin-top: .425rem;
-}
-
-.review-column .bg-success {
-    background-color: #F28482 !important;
-}
-
-.review-column .line-1 p, .line-2 p, .line-3 p, .line-4 p, .line-5 p {
-    width: 10%;
-    color: #373f50;
-    font-size: 15px;
-    font-family: 'nunito_semibold';
-}
-
-.product-description .review-data {
-    margin-bottom: -1rem;
-}
-
-/* Tab Ulasan */
-.tab-ulasan {
-    margin-top: -22.75rem;
-}
-.tab-ulasan h5 {
-    color: #373f50;
-    font-family: 'nunito_regular';
-    font-weight: 900;
-    font-size: 1rem;
-    margin-top: 5px;
-}
-
-.tab-ulasan p {
-   font-size: 15px;
-}
-
-.tab-ulasan .ulasan-scroll {
-    height: 22.75rem;
-    overflow: auto;
- }
-
-.ulasan-button {
-    padding: .625rem 1.375rem;
-    background: rgba(242, 132, 130, .8);
-    box-shadow: 0px 5px 10px rgba(242, 132, 130, .30);
-    border-radius: 10px;
-    color: white;
-    width: 11rem !important;
-   border-style: none;
-}
-
-.ulasan-button:hover {
-    background: rgba(242, 132, 130, 1);
-    box-shadow: 0px 5px 15px rgba(242, 132, 130, .50);
-    color: white;
-}
-
-.product-description .ulasan-data {
-    margin-bottom: -1rem;
-}
-
-.pertanyaan-ulasan li {
-    padding-left: .125rem;
-}
-
-.jawaban-ulasan h6 {
-    color: #373f50;
-    font-size: 13px;
-    font-weight: 900;
-    background-color: rgba(125, 135, 156, .1);
-    border-radius: 5px;
-    width: 5rem;
-    padding: .425rem;
-    margin-top: .152rem;
-}
-
-.jawaban-ulasan p, .pertanyaan-ulasan li {
- font-size: 14px;
- color: #7d879c;
- margin-top: .825rem;
-}
-
-/* Produk Rekomendasi */
-.carousel-singlepage .carousel-item img {
-    box-shadow: 0px 5px 10px #D5D5D51A;
-    border-radius: 10px;
-}
-
-.carousel-indicators li {
-    height: 10px;
-    width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: -2.825rem;
-}
-
-.carousel-indicators {
-  position: relative;
-}
-
-.panah-carousel-kanan {
-   margin-right: 7.225rem;
-   margin-left: 1rem;
-}
-
-.panah-carousel-kiri, .panah-carousel-kanan {
-    display: inline-block;
-    position: relative;
-    transform: translateY(-21.325rem);
-    width: auto;
-    }
-
-
-/* inspirasi hadiah */
-.carousel-inspirasi-hadiah .carousel-item img {
-    box-shadow: 0px 5px 10px #D5D5D51A;
-    border-radius: 10px;
-}
-
-.panah-carousel-kiri-hadiah,.panah-carousel-kanan-hadiah {
-    filter: drop-shadow(0px 0px 10px rgba(125, 135, 156, .5));
-    -webkit-filter: drop-shadow(0px 0px 10px rgba(125, 135, 156, .5));
-}
-
-/* rekomendasi home */
-
-.panah-carousel-kiri-home, .panah-carousel-kanan-home {
-filter: drop-shadow(0px 0px 8px rgba(125, 135, 156, .5));
--webkit-filter: drop-shadow(0px 0px 8px rgba(125, 135, 156, .5));
-    }
-
-.panah-carousel-kanan-home {
-transform: translateX(-1.625rem);    
-}
-
-.panah-carousel-kiri-home {
-    transform: translateX(10.125rem);   
-     }
-
-@media only screen and (max-width: 600px) {
-    .panah-carousel-kanan-home {
-        transform: translateX(-1.625rem);    
-        }
-        
-        .panah-carousel-kiri-home {
-            transform: translateX(6.625rem);   
-             }
-        }
-
-
-.carousel-rekomendasi-home .carousel-item img {
-        box-shadow: 0px 5px 10px #D5D5D51A;
-        border-radius: 10px;
-    }
-
-@media only screen and (max-width: 600px) {
-        .produk-rekomendasi h3 {
-          font-size: 1.75rem;
-        }
-}
-
-/* Cart */
-.cart-header h3 {
-    color: #373f50;
-    font-size: 28px;
-}
-
-.cart-header p {
-    color: #7d879c;
-    font-size: 18px;
-}
-
-.button-cancel .btn, .button-compact .btn {
-   margin: 0 !important;
-   padding: 0 !important;
-}
-
-.button-cancel .btn img, .button-compact .btn img {
-    width: auto;
-   margin: 0 !important;
-   padding: 0 !important;
-}
-
-.checkout-detail {
-    border-style: none;
-    box-shadow: 0px 5px 10px rgba(125, 135, 156, .1);
-    border-radius: 10px;
-    color: #373f50;
-}
-
-.checkout-modal-success img {
-margin-bottom: 3rem;
-margin-top: 2rem;
-}
-
-.checkout-modal-success h3 {
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.checkout-modal-success p {
-    font-size: 1rem;
-    color: rgba(156, 156, 156, 1);
-}
-
-.checkout-modal-success .btn {
-    font-size: 1rem;
-    background: rgba(213, 213, 213, .3);
-    color: #7d879c;
-    width: 10rem;
-    margin-top: 1.75rem;
-    margin-bottom: 1rem;
-}
-
-.filter-product {
-    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 5px 10px rgba(213, 213, 213, 0.25);
-    border-radius: 10px;
-    border-style: none;
-}
-
-.filter-kotak img {
-    margin-top: -.525rem !important;
-}
-
-.filter-kotak p {
-    color: rgba(156, 156, 156, 1);
-    margin-left: -.125rem !important;
-}
-
-.product-categori-list img {
-    box-shadow: 0px 5px 15px #9C9C9C1A;
-    border-radius: 10px;
-}
-
-.product-categori-list h5 {
-   font-size: 1.175rem !important;
-   font-weight: 900;
-}
-
-.product-categori-list a {
-   text-decoration: none !important;
-   color: #373f50;
-}
-
-.product-categori-list p {
-   font-size: 1.115rem !important;
-   color: #6C7296;
-}
-
-.nomor-pagination .page-item {
-    margin: .715rem;
-}
-
-.nomor-pagination .page-item.active a {
-  background-color:  #F28482;
-  box-shadow: 0px 5px 10px #212A5440;
-}
-
-.nomor-pagination a {
-    padding: .575rem .95rem;
-    font-size: .9375rem;
-    border-radius: .4125rem;
-    border-style: none;
-    box-shadow: 0px 3px 10px #4A4A4A1A;
-    color: #7d879c;
-}
-
-.kontrol-pagination a {
-    color: #373f50;
-}
-
-.kontrol-pagination img {
-margin-top: -.455rem;
-}
-
-.pagination-small .page-link {
-    border-style: none;
-    background-color: transparent;
-    font-size: 1.025em;
-    padding: 1.025rem;
-    color: #4b566b;
-    font-family: 'nunito_semibold';
-}
-
-.pagination-small .page-item.active .page-link {
-    border-radius: 10px;
-    background-color: #F28482;
-}
-
-/* Sidebar */
-.sidebar-akun .list-group {
-    box-shadow: 0px 5px 15px rgba(213, 213, 213, 0.2);
-    border-radius: 10px;
-}
-
-.sidebar-akun .list-group .list-group-item{
-    border-color: #eee;
-    padding: 1.125rem 0rem 1.125rem 2rem;
-    border-style: none;
-    font-size: 18px;
-}
-
-.sidebar-akun .list-group .list-group-item span {
-    margin-left: 1rem;
-}
-
-.sidebar-akun .list-group .list-group-item.active{
-    color: rgba(55, 63, 80, 1);
-    background: rgba(156, 156, 156, .01);
-    border-style: none;
-}
-
-.kotak-ringkasan {
-    max-width: 100%;
-    height: 95px;
-    box-shadow: 0px 5px 10px #D5D5D540;
-    border-radius: 5px;
-    position: relative;
-}
-
-.kotak-ringkasan a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 5px;
-    transition: 0.2s;
-    text-decoration: none;
-    stroke-opacity: 0;
-    color: rgba(55, 63, 80, 1);
-}
-
-.kotak-ringkasan a:hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #F28482;
-    border-radius: 5px;
-    transition: opacity 0.3s;
-    text-decoration: none;
-    stroke-opacity: 1;
-}
-
-/* order terbaru */
-.ringkasan-detail-order {
-    background-color: #fff;
-    text-decoration: none !important;
-    height: 60px;
-    box-shadow: 0px 5px 10px #D5D5D540;
-    border-radius: 7px;
-    border-style: none;
-} 
-
-/* info akun */
-.info-akun-edit a img {
-    position: absolute;
-    top: 7.625rem;
-    left: 8.625rem;
-    right: 0;
-    bottom: 0rem;
-}
-
-.order-expand {
-    border-style: none;
-    box-shadow: 0px 5px 10px #D5D5D540;
-    border-radius: 7px;
-}
-
-.card-header {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-/* alamat */
-.card-alamat {
-     position: relative;
-    box-shadow: 0px 5px 10px #D5D5D533;
-    border-radius: 7px;
-    border-style: none;
-    height: 186px;
-}
-
-.detail-alamat {
-    position: absolute;
-border-radius: 5px;
-color: rgba(55, 63, 80, 1);
-stroke-opacity: 0;
-fill-opacity: 0;
-transition: 0.5s;
-}
-
-.detail-alamat:hover {
-    position: absolute;
-border-radius: 5px;
-color: rgba(55, 63, 80, 1);
-stroke-opacity: 1;
-fill-opacity: 1;
-}
-
-.card-alamat:hover {
-    box-shadow: 0px 0px 30px rgba(55, 63, 80, .1);
-}
-
-.modal-footer 
-
-/* Tentang Kami */
-.tentang-autisma {
-    position: relative;
-}
-
-.tentang-autisma p, .visi-misi p {
-    color: #4b566b;
-}
-
-.quote-tentang-kami {
-    background: #FFFFFF;
-    box-shadow: 0px 5px 10px rgba(125, 135, 156, .1);
-    border-radius: 10px;
-    width: 824px;
-    margin: auto;
-    transform: translateY(-5rem);
-    padding: 4rem;
-}
-
-.quote-tentang-kami img {
-    display: block;
-margin: auto;
-}
-
-.cerita-kami h3, .visi-misi h3 {
-    font-family: 'baloo_2semibold';
-}
-
-.cerita-kami p, .visi-misi p {
-    line-height: 27px;
-}
-
-.data-tentang-kami {
-   background-color: rgba(242, 132, 130, .15) !important;
-}
-
-.angka-tentang-kami h1 h5 {
-    color: rgba(242, 132, 130, 1) !important;
-}
-
-/* Blog */
-.headline-blog, .daftar-blog-post-kanan, .daftar-blog-webinar-kanan, .post-blog-terbaru-list, .daftar-artikel-populer,.event-blog-list {
-    border-style: none;
-    background-color: transparent;
-}
-
-.headline-blog img {
-    box-shadow: 0px 5px 15px #D5D5D533;
-    border-radius: 10px;
-}
-
-.headline-blog h6 {
-    color: #7D879C;
-}
-
-.headline-blog h3 {
-   font-family: 'baloo_2semibold';
-   font-size: 35px;
-   margin-top: 1.625rem;
-}
-
-.headline-blog p {
-   font-size: 18px;
-   color: #4B566B;
-}
-
-.headline-blog .btn {
-    background: rgba(242, 132, 130, .8);
-    box-shadow: 0px 5px 10px rgba(242, 132, 130, .30);
-    border-radius: 10px;
-    border-style: none;
-    padding: .625rem;
-    width: 165px;
-    font-size: 18px;
-    margin-top: 2.625rem;
-    transition: .5s;
-}
-
-.headline-blog .btn:hover {
-    background: rgba(242, 132, 130, 1);
-    box-shadow: 0px 5px 15px rgba(242, 132, 130, .40);
-}
-
-.daftar-blog-post-kanan h6, .post-blog-terbaru-list h6, .daftar-artikel-populer h6{
-    font-size: 14px;
-    color: #F28482;
-}
-
-.daftar-blog-webinar-kanan h6, .event-blog-list h6 {
-    font-size: 14px;
-    color: #F6BD60;
-}
-
-.daftar-blog-post-kanan h5, .daftar-blog-webinar-kanan h5, .daftar-artikel-populer h5 {
-   font-family: 'baloo_2semibold';
-   font-size: 20px;
-   margin-top: .625rem;
-   overflow: hidden;
-   height: 98px;
-}
-
-.daftar-blog-post-kanan a,.daftar-blog-webinar-kanan a, .post-blog-terbaru-list a, .daftar-artikel-populer a {
-   font-size: 1rem;
-   color: #4B566B;
-   text-decoration: underline;
-   position: absolute;
-   bottom: 0;
-   }
-
-   /* post blog terbaru */
-   .post-blog-terbaru h1,.artikel-populer h1, .event-blog h1 {
-       margin-top: 5rem;
-       margin-bottom: 2rem;
-       font-size: 40px;
-       font-family: 'baloo_2semibold';
-   }
-
-   .post-blog-terbaru-isi .col-md h3 {
-    font-size: 20px;
-    font-family: 'baloo_2semibold';
-}
-
-   .event-blog-list h3 {
-    font-family: 'baloo_2semibold';
-    font-size: 22px;
-    margin-top: .625rem;
-    overflow: hidden;
-    height: 98px;
-    line-height: 28px;
- }
-
- .col-lg-4 .event-blog-list .card-body h3 {
-    font-family: 'baloo_2semibold';
-    font-size: 20px;
-    margin-top: .625rem;
-    overflow: hidden;
-    height: 98px;
-    line-height: 28px;
- }
-
-.daftar-artikel-populer img {
-    width: auto;
-}
-
-.play-button-text {
-position: absolute;
-display: block;
-margin: auto;
-}
-
-.tanggal-event {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    bottom: 0;
-    opacity: 0.8;
-}
-
-.tanggal-event p {
-padding: .425rem;
-background-color: #fff;
-border-radius: 10px 0px;
-font-size: 18px;
-font-weight: 600;
-}
-
-.event-blog-list .btn {
-    background: #F28482;
-    border-radius: 5px;
-    color: white;
-z-index: 1000;
-box-shadow: 0px 5px 15px #C5605E33;
-width: 102px;
-margin-top: -2rem;
-}
-
-
-
-
-.header-1-new {
-    width: 100%;
-    height: 520px;
-    background-color: rgba(242, 132, 130, .5) !important;
-    box-shadow: 0px 5px 10px rgba(174, 161, 204, .1);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-
-.header-2-new {
-    background-color: rgba(242, 132, 130, .5) !important;
-    box-shadow: 0px 5px 10px rgba(174, 161, 204, .1);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.header-2-new, .header-3-new {
-    width: 100% !important;
-    height: 250px !important;
-    }
-
-.header-3-new {
-    background: rgba(174, 161, 204, .5) !important;
-    box-shadow: 0px 5px 10px rgba(174, 161, 204, .1);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.header-utama-new h1 {
-    font-size: 60px;
-    color: white;
-    font-family: 'baloo_2semibold';
-    letter-spacing: -0.6px;
-}
-
-.header-2-new h1 {
-    font-size: 38px;
-    color: white;
-    font-family: 'baloo_2semibold';
-    letter-spacing: -0.6px;
-}
-
-.header-3-new h1 {
-    font-size: 27px;
-    color: #4b566b;
-    font-family: 'baloo_2semibold';
-    letter-spacing: 0.1px;
-}
-
-.header-utama-new h5 {
-    font-size: 30px;
-    color: white;
-   font-family: 'nunito_semibold';
-   margin-top: 1rem;
-}
-
-.header-2-new h5 {
-    font-size: 24px;
-    color: #373f50;
-   font-family: 'nunito_semibold';
-   margin-top: .875rem;
-}
-
-.header-3-new h5 {
-    font-size: 18px;
-    color: #7D879C;
-   font-family: 'nunito_semibold';
-   margin-top: .875rem;
-}
-
-.header-utama-new p {
-    font-size: 18px;
-    font-family: 'nunito_semibold';
-}
-
-.header-utama-new .btn {
-    padding: .525rem;
-    width: 10rem;
-    font-size: 18px;
-    background: #373f50;
-    border-radius: 10px;
-    border-style: none;
-    margin-top: 3rem;
-}
-
-.header-2-new .btn {
-    font-size: 18px;
-    background: none;
-    border-style: none;
-  padding: 0;
-  margin-top: 5rem !important;
-}
-
-.header-3-new .btn {
-    font-size: 18px;
-    background: none;
-    border-style: none;
-  padding: 0;
-  margin-top: 5rem !important;
-}
-
-.header-1-new img {
-    transform: translate(16.775rem,-11.875rem);
-    }
-
-.header-2-new img {
-        transform: translate(16.875rem,-10.875rem);
-        }
-
-.header-3-new img {
-        transform: translate(-1.175rem,-9.775rem);
-}
-
-
-
-/* penjelasan */
-.customer-persona .card, .font-penjelasan .card, .warna-penjelasan .card {
-    border-style: none;
-    box-shadow: 0px 10px 20px #7D879C26;
-}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Autisma</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Kecil -->
+    <!-- As a link -->
+    <nav class="navbar navbar-kecil">
+        <div class="container d-flex justify-content-end p-0">
+            <a class="navbar-brand" href="#">(+62) 87-7899-9787</a>
+        </div>
+    </nav>
+    <!-- Akhir Navbar Kecil-->
+
+    <!-- Navbar Utama -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container navbar-utama">
+            <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="127.556" height="33.308" viewBox="0 0 127.556 33.308">
+                    <path
+                        d="M16.94-9.856Q16.324-9.9,13.156-9.9a19.9,19.9,0,0,0-3.7.176A63.436,63.436,0,0,0,6.82,1.32a4.994,4.994,0,0,1-1.078.044A19.387,19.387,0,0,1,3.52,1.232Q1.1.88,1.1.616q0-1.76,3.124-10.252a6.594,6.594,0,0,1-1.32-2,6.033,6.033,0,0,1-.748-2.53q0-.044,3.652-.176Q9.416-24.816,9.9-25.388a6.994,6.994,0,0,1,1.584-.418,12.37,12.37,0,0,1,1.8-.286l-.088-.572q-.088-.616-.2-1.342a8.278,8.278,0,0,1-.11-.946q0-.132.748-.528a9.992,9.992,0,0,1,4.444-1.056q.44,2.6,1.166,6.622t2.838,12.3Q24.2-3.344,26.136-.088l.308.528q0,.22-.836.748a11.181,11.181,0,0,1-2.2,1.012,7.552,7.552,0,0,1-2.508.484q-.4,0-1.914-4.994T16.94-9.856Zm-1.056-4.532q-1.5-6.336-1.628-7.084t-.22-.748q-.088,0-.22.176-.4.748-1.474,3.608t-1.386,3.96Q15.84-14.476,15.884-14.388ZM38.5-1.672,38.456-2.6l-.044-.088a8.177,8.177,0,0,1-2.662,2.6A6.078,6.078,0,0,1,32.6.88q-4.62,0-5.28-7.172-.088-1.144-.088-5.9t.4-5.632a5.892,5.892,0,0,1,3.7-.924,2.061,2.061,0,0,1,1.232.22q0,.044-.044,1.188-.22,3.344-.22,5.148t.044,2.662q.044.858.066,1.1t.132.858a3.891,3.891,0,0,0,.33,1.056,2.165,2.165,0,0,0,2.046,1.276,3.1,3.1,0,0,0,2.464-1.386A3.779,3.779,0,0,0,38.412-8.58v-1.5q0-8.052.264-8.668a2.777,2.777,0,0,1,1.386-.836,6.509,6.509,0,0,1,2.31-.44,2.618,2.618,0,0,1,1.32.176L43.6-17.776q-.264,6.292-.264,9.724A31.517,31.517,0,0,0,43.516-3.7,8.421,8.421,0,0,0,44.7-.176q0,.44-1.8,1.408a6.807,6.807,0,0,1-3.08.968q-.352,0-.792-1.32A10.42,10.42,0,0,1,38.5-1.672ZM53.372-28.82q-.088,1.012-.22,5.544a15.594,15.594,0,0,1,3.3.132,7.5,7.5,0,0,1-.44,2.662q-.44,1.166-.836,1.166H53.108Q53.02-12.8,53.02-8.734T53.152-3.3a5.886,5.886,0,0,0,1.8,3.74q0,.484-1.694,1.408a6.7,6.7,0,0,1-3.19.924q-.132,0-.506-.44A5.7,5.7,0,0,1,48.774.88a7.364,7.364,0,0,1-.528-1.98q-.11-.968-.11-6.908t.132-11.22l-2.464.044a4.192,4.192,0,0,1-.22-1.914q0-1.694.4-2.046.968-.044,2.332-.088a24.784,24.784,0,0,0-.132-3.3,8.854,8.854,0,0,1-.132-.88q0-.44,1.518-1.012A7.711,7.711,0,0,1,52.228-29Q53.372-29,53.372-28.82ZM60.7-26.268a2.569,2.569,0,0,1,1.958.792,2.889,2.889,0,0,1,.748,2.068,2.842,2.842,0,0,1-.99,2.178,3.191,3.191,0,0,1-2.2.9,2.535,2.535,0,0,1-1.936-.77,2.861,2.861,0,0,1-.726-2.046,2.938,2.938,0,0,1,.968-2.2A3.077,3.077,0,0,1,60.7-26.268ZM62.92-15.312l-.088,7.128a45.658,45.658,0,0,0,.2,5.038A6.993,6.993,0,0,0,64.152-.132q0,.44-1.8,1.408a6.807,6.807,0,0,1-3.08.968q-.4,0-.792-1.32a12.888,12.888,0,0,1-.506-2.508q-.11-1.188-.11-8.008t.308-7.436a5.967,5.967,0,0,1,3.564-.792q1.012,0,1.232.264ZM79.6-5.06A5.47,5.47,0,0,1,77.374-.814a13.944,13.944,0,0,1-4.8,2.684,15.248,15.248,0,0,1-4.51.814q-.22,0-.616-.528a5.454,5.454,0,0,1-1.1-3.388V-1.54a9.541,9.541,0,0,0,5.236-1.188q1.8-1.188,1.8-2.464a2.486,2.486,0,0,0-1.1-1.76,13.967,13.967,0,0,0-2.42-1.628,9.411,9.411,0,0,1-2.42-1.87,3.539,3.539,0,0,1-1.1-2.442q0-2.684,3.344-4.928a12.567,12.567,0,0,1,7.128-2.244q.44,0,1.144,1.21a5.255,5.255,0,0,1,.748,2.486,10.208,10.208,0,0,0-2.64.528Q72.6-14.74,72.6-13.112q0,1.144,3.432,3.124a8.832,8.832,0,0,1,2.42,2.068A4.6,4.6,0,0,1,79.6-5.06Zm2.6-.4L82.06-15.8a9.421,9.421,0,0,1,.22-3.036,5.132,5.132,0,0,1,1.628-.9,5.938,5.938,0,0,1,2.112-.418q1.012,0,1.012.176-.176,1.936-.176,2.948t.088,1.012q.088,0,.264-.2t.638-.616a11.173,11.173,0,0,1,1.716-1.144,4.677,4.677,0,0,1,2.31-.726,4.673,4.673,0,0,1,4.312,2.552q2.508-3.52,5.544-3.52a4.069,4.069,0,0,1,3.916,2.332,15.024,15.024,0,0,1,1.452,5.192q.264,3.784.264,7.832L107.184.836q0,.308-1.452.594a12.7,12.7,0,0,1-2.332.286l-1.408-.22a66.688,66.688,0,0,0,.484-7.04q0-2.684-.066-3.85a14.172,14.172,0,0,0-.33-2.332,3.187,3.187,0,0,0-.814-1.672A1.968,1.968,0,0,0,99.88-13.9a2.546,2.546,0,0,0-1.5.462,3.516,3.516,0,0,0-.946.9,1.578,1.578,0,0,0-.286.572q.132,1.408.132,6.512L97.108-1.98q0,.352-1.408.616a12.983,12.983,0,0,1-2.288.264L92-1.32a60.569,60.569,0,0,0,.4-6.666,19.542,19.542,0,0,0-.33-4.356A1.6,1.6,0,0,0,90.332-13.6a2.827,2.827,0,0,0-2.376,1.408,4.438,4.438,0,0,0-.968,2.156v.924l.044,4.664A24.572,24.572,0,0,1,86.856.088q-1.1,1.056-4.62,1.056-.352,0-.352-.132A46.177,46.177,0,0,0,82.192-5.456Zm44.836-4.356q0,5.5.132,6.424a5.729,5.729,0,0,0,1.5,3.476q0,.484-1.738,1.452a6.592,6.592,0,0,1-3.146.968q-.4,0-.836-1.166A8.218,8.218,0,0,1,122.43-.4q-.066-.572-.11-.572l-.132.088A8.527,8.527,0,0,1,116.732.968,6.979,6.979,0,0,1,111.914-.55a5.092,5.092,0,0,1-1.694-3.982A7.592,7.592,0,0,1,111.3-8.69a7.868,7.868,0,0,1,2.53-2.574,13.837,13.837,0,0,1,3.212-1.408,14.564,14.564,0,0,1,4.224-.88l.088-.044q0-2.156-5.456-2.156a21.334,21.334,0,0,0-3.212.176h-.044a5.987,5.987,0,0,1,.55-2.2,6.393,6.393,0,0,1,.924-1.716q.374-.4,3.146-.4,5.016,0,7.392,1.914t2.376,5.918ZM122.144-7V-8.668a4.035,4.035,0,0,0-.044-.968A8.55,8.55,0,0,0,117-8.1a2.879,2.879,0,0,0-1.364,2.42,2.019,2.019,0,0,0,.66,1.54,2.845,2.845,0,0,0,2,.616,4.8,4.8,0,0,0,2.6-.792A2.925,2.925,0,0,0,122.144-7Z"
+                        transform="translate(-1.1 30.536)" fill="#f28482" /></svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-kategory.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-tentang-kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="halaman-blog.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="header-icon d-flex justify-content-between align-content-center align-items-center">
+                    <a href="halaman-akun.html#list-favorit-list" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="28" height="27" viewBox="0 0 29 24">
+                            <g transform="translate(-906.5 -72)">
+                                <rect width="28" height="27" transform="translate(907 72)" fill="#fff" opacity="0" />
+                                <path
+                                    d="M27.241,6.579a7.1,7.1,0,0,0-10.049,0L15.823,7.948,14.454,6.579A7.106,7.106,0,1,0,4.4,16.628L5.773,18,15.823,28.047,25.872,18l1.369-1.369a7.1,7.1,0,0,0,0-10.049Z"
+                                    transform="translate(905.177 69.003)" fill="none" stroke="#373f50"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="halaman-akun.html" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="27" height="29" viewBox="0 0 27 29">
+                            <g transform="translate(-954 -71)">
+                                <rect width="27" height="27" transform="translate(954 72)" fill="#fff" opacity="0" />
+                                <g transform="translate(956 72)">
+                                    <path
+                                        d="M30,31.642V28.595A6.048,6.048,0,0,0,24,22.5H12a6.048,6.048,0,0,0-6,6.095v3.047"
+                                        transform="translate(-6 -4.642)" fill="none" stroke="#373f50"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                    <path
+                                        d="M23.811,10.595a6,6,0,0,1-5.906,6.095A6,6,0,0,1,12,10.595,6,6,0,0,1,17.906,4.5,6,6,0,0,1,23.811,10.595Z"
+                                        transform="translate(-5.905 -4.5)" fill="none" stroke="#373f50"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="halaman-cart.html" class="nav-link icon-header ml-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="27" height="30" viewBox="0 0 27 30">
+                            <g transform="translate(-1001 -70)">
+                                <rect width="27" height="27" transform="translate(1001 71)" fill="#fff" opacity="0" />
+                                <g transform="translate(1004 71)">
+                                    <g transform="translate(-4.5 -2.018)" fill="none" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M6.9,9,4.5,26.516a2.454,2.454,0,0,0,2.4,2.5H23.727a2.454,2.454,0,0,0,2.4-2.5L23.727,9Z"
+                                            stroke="none" />
+                                        <path
+                                            d="M 6.903373718261719 9.000001907348633 L 4.499994277954102 26.51592254638672 C 4.499994277954102 27.89789199829102 5.576034545898438 29.01820182800293 6.903373718261719 29.01820182800293 L 23.72702407836914 29.01820182800293 C 25.05437469482422 29.01820182800293 26.13040542602539 27.89789199829102 26.13040542602539 26.51592254638672 L 23.72702407836914 9.000001907348633 L 6.903373718261719 9.000001907348633 M 6.903373718261719 7.000001907348633 L 23.72702407836914 7.000001907348633 C 24.72653579711914 7.000001907348633 25.57258415222168 7.737892150878906 25.70845413208008 8.728122711181641 L 28.11183547973633 26.24404144287109 C 28.12420463562012 26.33414077758789 28.13040542602539 26.42498207092285 28.13040542602539 26.51592254638672 C 28.13040542602539 28.99849319458008 26.15505409240723 31.01820182800293 23.72702407836914 31.01820182800293 L 6.903373718261719 31.01820182800293 C 4.475343704223633 31.01820182800293 2.499994277954102 28.99849319458008 2.499994277954102 26.51592254638672 C 2.499994277954102 26.42498207092285 2.506195068359375 26.33414077758789 2.518564224243164 26.24404144287109 L 4.921945571899414 8.728122711181641 C 5.057815551757813 7.737892150878906 5.903863906860352 7.000001907348633 6.903373718261719 7.000001907348633 Z"
+                                            stroke="none" fill="#373f50" />
+                                    </g>
+                                    <path d="M21.8,19.9a4.9,4.9,0,0,0-9.8,0" transform="translate(-6.085 -15)"
+                                        fill="none" stroke="#373f50" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Searchbar -->
+    <div class="container megamenu-kategori mt-3">
+        <div class="row">
+            <div class="col-auto">
+                <nav class="navbar navbar-expand bg-transparent m-0 p-0">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link d-flex align-items-center justify-content-center" href="#"
+                                    id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <i class="mr-3 p-0" style="margin-top: -.525rem;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24.500" height="17.300"
+                                            viewBox="0 0 24.501 17.334">
+                                            <g transform="translate(-3 -7.5)">
+                                                <path d="M4.5,18H26" transform="translate(0 -1.833)" fill="none"
+                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="3" />
+                                                <path d="M4.5,9H26" fill="none" stroke="#fff" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="3" />
+                                                <path d="M4.5,27H26" transform="translate(0 -3.666)" fill="none"
+                                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="3" />
+                                            </g>
+                                        </svg></i>
+                                    Kategori
+                                </a>
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                    <div class="row mx-auto pt-3 align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/alat sensorik.png">
+                                                <p class="mt-2" style="font-weight: 700;">Alat Sensorik</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/produk menenangkan.png">
+                                                <p class="mt-2" style="font-weight: 700;">Produk Menenangkan</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/pembantu fokus.png">
+                                                <p class="mt-2" style="font-weight: 700;">Pembantu Fokus</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/menulis.png">
+                                                <p class="mt-2" style="font-weight: 700;">Menulis</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto align-self-center">
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/mainan aksi.png">
+                                                <p class="mt-2" style="font-weight: 700;">Mainan Aksi</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-item px-2" href="halaman-kategory.html"><img
+                                                    src="img/megamenu kategori/ruang sensorik.png">
+                                                <p class="mt-2" style="font-weight: 700;">Ruang Sensorik</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row p-4 btn-semua-produk" style="margin-top: -1rem;">
+                                        <div class="col">
+                                            <a class="btn btn-block" style="border: 1px solid #373f50;
+                                                border-radius: 5px;" href="halaman-kategory.html" role="button">Semua
+                                                Produk</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col form-group pl-0">
+                <input type="text" class="form-control searchbar-kategori" placeholder="Cari produk...">
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Navbar Utama-->
+
+    <!-- Header -->
+    <div class="container header-utama-new mt-2 d-flex">
+        <div class="row d-flex justify-content-between header-big-image">
+            <div class="col d-none d-lg-block col-sm-12 col-lg-7">
+                <div class="bg-white header-1-new" style="margin-bottom: 20px;">
+                    <h1 style="transform: translate(1.775rem,1.875rem);">Gratis Ongkir!</h1>
+                    <h5 style="transform: translate(1.775rem,1.875rem);">Min. Belanja 200RB</h5>
+                    <p style="transform: translate(1.775rem,1.875rem); color: #373f50;">Berlaku Untuk Seluruh
+                        Wilayah <br> Indonesia
+                    </p>
+                    <a style="transform: translate(1.775rem,1.875rem);" class="btn btn-secondary"
+                        href="halaman-kategory.html">Selengkapnya</a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 4.webp" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block col-sm col-lg-5">
+                <div class="bg-light header-2-new">
+                    <h1 style="transform: translate(1.625rem,1.875rem);">Deals Of The Day</h1>
+                    <h5 style="transform: translate(1.625rem,1.875rem);">Cashback 50%</h5>
+                    <a style="transform: translate(1.625rem,1.875rem);"
+                        class="btn btn-secondary d-flex align-items-center"
+                        href="halaman-kategory.html">Selengkapnya<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                            width="18.768" height="19.596" viewBox="0 0 18.768 19.596">
+                            <g transform="translate(-6.5 -6.086)">
+                                <path d="M7.5,18H24.268" transform="translate(0 -2.116)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path d="M18,7.5l8.384,8.384L18,24.268" transform="translate(-2.116)" fill="none"
+                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg></a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 1.webp" class="img-fluid"></a>
+                </div>
+
+
+                <div class="bg-light header-3-new text-right" style="margin-top: 20px;">
+                    <h1 style="transform: translate(-2rem,1.875rem);">Harga Lebih Murah
+                    </h1>
+                    <h5 style="transform: translate(-2rem,1.875rem);">Diskon hingga 70%</h5>
+                    <a style="transform: translate(17.175rem,3.125rem);"
+                        class="btn btn-secondary d-flex align-items-center"
+                        href="halaman-kategory.html">Selengkapnya<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                            width="18.768" height="19.596" viewBox="0 0 18.768 19.596">
+                            <g transform="translate(-6.5 -6.086)">
+                                <path d="M7.5,18H24.268" transform="translate(0 -2.116)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path d="M18,7.5l8.384,8.384L18,24.268" transform="translate(-2.116)" fill="none"
+                                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg></a>
+                    <a href="halaman-kategory.html"><img src="img/header/header 5.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Akhir Header -->
+
+
+    <div id="carouselExampleControls" class="carousel slide d-lg-none" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="container">
+                <div class="carousel-item active">
+                    <img src="img/header/header big 1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/header big 2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/header/header big 3.jpg" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-left.svg"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-right.svg"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Populer -->
+
+    <div class="container list-gambar-produk">
+        <div class="row mb-3">
+            <div class="col">
+                <h3 class="judul-produk">Paling Banyak Dicari</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p1.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Ball Pools</h5>
+                                <p>IDR 1.900.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p2.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Big Balancing Board</h5>
+                                <p>IDR. 850.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p3.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">b-Calm Headphones</h5>
+                                <p>IDR. 670.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-sm-4 mt-lg-0 mt-md-0">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p4.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Therapy Swing</h5>
+                                <p>IDR. 290.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p5.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Bolster Swing</h5>
+                                <p>IDR. 120.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p6.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Carousel Spinning Chair</h5>
+                                <p>IDR. 560.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p7.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Concentration Rocker</h5>
+                                <p>IDR. 360.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 mt-4">
+                <figure class="figure">
+                    <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip" data-placement="left"
+                        title="Tambah ke favorit" data-original-title="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <g transform="translate(-431 -863)">
+                                <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                    opacity="0.1" />
+                                <path
+                                    d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                    transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                    stroke="rgba(125,135,156,0.5)" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.3" />
+                            </g>
+                        </svg></button>
+                    <div class="img-hover">
+                        <a href="halaman-produk.html"> <img src="img/populer/p8.jpg" class="figure-img img-fluid">
+                            <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                <h5 style="text-decoration: none;">Crash Pad 5'x5'</h5>
+                                <p>IDR. 367.000</p>
+                            </figcaption>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+        </div>
+
+        <!-- AKhir Populer -->
+
+        <!-- Inspirasi hadiah -->
+        <div class="container inspirasi-hadiah">
+            <div class="row">
+                <div class="col mb-2">
+                    <h3>Inspirasi Hadiah</h3>
+                </div>
+            </div>
+        </div>
+        <div id="carouselInspirasiHadiah" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container carousel-inspirasi-hadiah">
+                    <div class="carousel-item active">
+                        <div class="image-hadiah-carousel d-flex justify-content-center">
+                            <div class="control d-flex justify-content-between">
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/Balita.jpg" class="d-block"></div>
+                                </a>
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/Prasekolah.jpg" class="d-block">
+                                    </div>
+                                </a>
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/Sekolah Dasar.jpg"
+                                            class="d-block">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="image-hadiah-carousel d-flex justify-content-center">
+                            <div class="control d-flex justify-content-between">
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/Remaja.jpg" class="d-block"></div>
+                                </a>
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/200rb.jpg" class="d-block"></div>
+                                </a>
+                                <a href="halaman-kategory.html">
+                                    <div class="col-4"><img src="img/inspirasi hadiah/Balita.jpg" class="d-block"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="control-arrow"></div>
+            <a class="carousel-control-prev panah-carousel-kiri-hadiah" href="#carouselInspirasiHadiah" role="button"
+                data-slide="prev">
+                <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-left.svg"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next panah-carousel-kanan-hadiah" href="#carouselInspirasiHadiah" role="button"
+                data-slide="next">
+                <span aria-hidden="true"><img src="img/inspirasi hadiah/arrow-right.svg"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Produk Rekomendasi -->
+    <div class="container produk-rekomendasi" style="margin-top: 5rem;">
+        <div class="row d-flex justify-content-between">
+            <div class="col-5 mb-2 col-sm-4 col-md-7 col-lg-9">
+                <h3>Rekomendasi Untuk Anda</h3>
+            </div>
+
+            <div class="col-7 col-sm-7 col-md-5 col-lg-3 d-flex">
+                <div class="control-arrow">
+                    <a class="carousel-control-prev panah-carousel-kiri-home" href="#carouselProdukRekomendasi"
+                        role="button" data-slide="prev">
+                        <span aria-hidden="true"><img src="img/single product/arrow-left-small.svg"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next panah-carousel-kanan-home" href="#carouselProdukRekomendasi"
+                        role="button" data-slide="next">
+                        <span aria-hidden="true"><img src="img/single product/arrow-right-small.svg"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselProdukRekomendasi" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProdukRekomendasi" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProdukRekomendasi" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="container carousel-rekomendasi-home">
+                <div class="carousel-item active">
+                    <div class="control d-flex justify-content-between">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p1.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">On The Go Swing</h5>
+                                            <p>IDR. 1.890.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p2.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Squeezy Canoe</h5>
+                                            <p>IDR. 680.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p3.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Foam Gymnasium</h5>
+                                            <p>IDR. 970.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 d-sm-none col-md-3 d-md-block col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/rekomendasi/p4.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Hilltops-Set of 5</h5>
+                                            <p>IDR. 300.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="control d-flex justify-content-between">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p5.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Bolster Swing</h5>
+                                            <p>IDR. 120.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p6.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Carousel Spinning Chair</h5>
+                                            <p>IDR. 560.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p7.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Concentration Rocker</h5>
+                                            <p>IDR. 360.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-6 d-sm-none col-md-3 d-md-block col-lg-3">
+                            <figure class="figure">
+                                <button class="btn-wishlist btn-sm" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Tambah ke favorit"
+                                    data-original-title="Add to wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                        <g transform="translate(-431 -863)">
+                                            <circle cx="15" cy="15" r="15" transform="translate(431 863)" fill="#7d879c"
+                                                opacity="0.1" />
+                                            <path
+                                                d="M12.9,5.381a3.017,3.017,0,0,0-4.267,0l-.581.581-.581-.581A3.017,3.017,0,0,0,3.207,9.649l.581.581L8.056,14.5l4.267-4.267.581-.581A3.017,3.017,0,0,0,12.9,5.381Z"
+                                                transform="translate(438.177 869.003)" fill="rgba(125,135,156,0)"
+                                                stroke="rgba(125,135,156,0.5)" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="1.3" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <div class="img-hover">
+                                    <a href="halaman-produk.html"> <img src="img/populer/p8.jpg"
+                                            class="figure-img img-fluid">
+                                        <figcaption class="figure-caption mt-3" style="text-decoration: none;">
+                                            <h5 style="text-decoration: none;">Crash Pad 5'x5'</h5>
+                                            <p>IDR. 367.000</p>
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Tentang Kami -->
+    <section class="tentang-kami">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="order-2 col-12 order-sm-2 col-sm-5 col-lg-6 order-lg-2">
+                    <h1>Tentang kami</h1>
+                    <p>
+                        Autisma dilahirkan dengan mimpi untuk membuat dunia sedikit lebih mudah bagi para individu
+                        dengan cara menyediakan alat yang membantu membangun keterampilan. Alat kami dirancang untuk
+                        membantu siswa memahami apa yang diharapkan dari mereka di kelas, mengelola kecemasan mereka,
+                        dan mendukung fokus.
+                    </p>
+                    <a href="halaman-tentang-kami.html" class="btn">Selengkapnya <img
+                            src="img/menubar/icon-arrow-right.svg"></a>
+                </div>
+                <div class="order-1 col-12 order-sm-1 col-sm-9 col-lg-6 order-lg-2 mb-5 image-tentang-kami">
+                    <img class="img-fluid" src="img/tentang kami/foto tentang kami.png">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- Akhir Tentang Kami -->
+
+    <!-- Keunggulan -->
+    <section class="keunggulan">
+        <div class="container pb-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/win.svg" alt="">
+                    <h3>Shop to help</h3>
+                    <p>95% profit disumbangkan kepada organisasi autisme di seluruh Indonesia</p>
+                </div>
+
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/credit-card.svg" alt="">
+                    <h3>Pembayaran aman</h3>
+                    <p>Metode pembayaran yang beragam dan terjamin aman</p>
+                </div>
+
+                <div class="col-9 col-md-4 text-center mb-5">
+                    <img width="60rem" src="img/tujuan/support.svg" alt="">
+                    <h3>Layanan bantuan 24 jam</h3>
+                    <p>Bantuan sepanjang waktu untuk pengalaman berbelanja yang lancar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Keunggulan -->
+
+
+    <!-- Footer -->
+    <footer class="bg-dark pt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="d-none col-4 d-sm-block col-sm-3 col-md-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="127.556" height="33.308"
+                        viewBox="0 0 127.556 33.308">
+                        <path
+                            d="M16.94-9.856Q16.324-9.9,13.156-9.9a19.9,19.9,0,0,0-3.7.176A63.436,63.436,0,0,0,6.82,1.32a4.994,4.994,0,0,1-1.078.044A19.387,19.387,0,0,1,3.52,1.232Q1.1.88,1.1.616q0-1.76,3.124-10.252a6.594,6.594,0,0,1-1.32-2,6.033,6.033,0,0,1-.748-2.53q0-.044,3.652-.176Q9.416-24.816,9.9-25.388a6.994,6.994,0,0,1,1.584-.418,12.37,12.37,0,0,1,1.8-.286l-.088-.572q-.088-.616-.2-1.342a8.278,8.278,0,0,1-.11-.946q0-.132.748-.528a9.992,9.992,0,0,1,4.444-1.056q.44,2.6,1.166,6.622t2.838,12.3Q24.2-3.344,26.136-.088l.308.528q0,.22-.836.748a11.181,11.181,0,0,1-2.2,1.012,7.552,7.552,0,0,1-2.508.484q-.4,0-1.914-4.994T16.94-9.856Zm-1.056-4.532q-1.5-6.336-1.628-7.084t-.22-.748q-.088,0-.22.176-.4.748-1.474,3.608t-1.386,3.96Q15.84-14.476,15.884-14.388ZM38.5-1.672,38.456-2.6l-.044-.088a8.177,8.177,0,0,1-2.662,2.6A6.078,6.078,0,0,1,32.6.88q-4.62,0-5.28-7.172-.088-1.144-.088-5.9t.4-5.632a5.892,5.892,0,0,1,3.7-.924,2.061,2.061,0,0,1,1.232.22q0,.044-.044,1.188-.22,3.344-.22,5.148t.044,2.662q.044.858.066,1.1t.132.858a3.891,3.891,0,0,0,.33,1.056,2.165,2.165,0,0,0,2.046,1.276,3.1,3.1,0,0,0,2.464-1.386A3.779,3.779,0,0,0,38.412-8.58v-1.5q0-8.052.264-8.668a2.777,2.777,0,0,1,1.386-.836,6.509,6.509,0,0,1,2.31-.44,2.618,2.618,0,0,1,1.32.176L43.6-17.776q-.264,6.292-.264,9.724A31.517,31.517,0,0,0,43.516-3.7,8.421,8.421,0,0,0,44.7-.176q0,.44-1.8,1.408a6.807,6.807,0,0,1-3.08.968q-.352,0-.792-1.32A10.42,10.42,0,0,1,38.5-1.672ZM53.372-28.82q-.088,1.012-.22,5.544a15.594,15.594,0,0,1,3.3.132,7.5,7.5,0,0,1-.44,2.662q-.44,1.166-.836,1.166H53.108Q53.02-12.8,53.02-8.734T53.152-3.3a5.886,5.886,0,0,0,1.8,3.74q0,.484-1.694,1.408a6.7,6.7,0,0,1-3.19.924q-.132,0-.506-.44A5.7,5.7,0,0,1,48.774.88a7.364,7.364,0,0,1-.528-1.98q-.11-.968-.11-6.908t.132-11.22l-2.464.044a4.192,4.192,0,0,1-.22-1.914q0-1.694.4-2.046.968-.044,2.332-.088a24.784,24.784,0,0,0-.132-3.3,8.854,8.854,0,0,1-.132-.88q0-.44,1.518-1.012A7.711,7.711,0,0,1,52.228-29Q53.372-29,53.372-28.82ZM60.7-26.268a2.569,2.569,0,0,1,1.958.792,2.889,2.889,0,0,1,.748,2.068,2.842,2.842,0,0,1-.99,2.178,3.191,3.191,0,0,1-2.2.9,2.535,2.535,0,0,1-1.936-.77,2.861,2.861,0,0,1-.726-2.046,2.938,2.938,0,0,1,.968-2.2A3.077,3.077,0,0,1,60.7-26.268ZM62.92-15.312l-.088,7.128a45.658,45.658,0,0,0,.2,5.038A6.993,6.993,0,0,0,64.152-.132q0,.44-1.8,1.408a6.807,6.807,0,0,1-3.08.968q-.4,0-.792-1.32a12.888,12.888,0,0,1-.506-2.508q-.11-1.188-.11-8.008t.308-7.436a5.967,5.967,0,0,1,3.564-.792q1.012,0,1.232.264ZM79.6-5.06A5.47,5.47,0,0,1,77.374-.814a13.944,13.944,0,0,1-4.8,2.684,15.248,15.248,0,0,1-4.51.814q-.22,0-.616-.528a5.454,5.454,0,0,1-1.1-3.388V-1.54a9.541,9.541,0,0,0,5.236-1.188q1.8-1.188,1.8-2.464a2.486,2.486,0,0,0-1.1-1.76,13.967,13.967,0,0,0-2.42-1.628,9.411,9.411,0,0,1-2.42-1.87,3.539,3.539,0,0,1-1.1-2.442q0-2.684,3.344-4.928a12.567,12.567,0,0,1,7.128-2.244q.44,0,1.144,1.21a5.255,5.255,0,0,1,.748,2.486,10.208,10.208,0,0,0-2.64.528Q72.6-14.74,72.6-13.112q0,1.144,3.432,3.124a8.832,8.832,0,0,1,2.42,2.068A4.6,4.6,0,0,1,79.6-5.06Zm2.6-.4L82.06-15.8a9.421,9.421,0,0,1,.22-3.036,5.132,5.132,0,0,1,1.628-.9,5.938,5.938,0,0,1,2.112-.418q1.012,0,1.012.176-.176,1.936-.176,2.948t.088,1.012q.088,0,.264-.2t.638-.616a11.173,11.173,0,0,1,1.716-1.144,4.677,4.677,0,0,1,2.31-.726,4.673,4.673,0,0,1,4.312,2.552q2.508-3.52,5.544-3.52a4.069,4.069,0,0,1,3.916,2.332,15.024,15.024,0,0,1,1.452,5.192q.264,3.784.264,7.832L107.184.836q0,.308-1.452.594a12.7,12.7,0,0,1-2.332.286l-1.408-.22a66.688,66.688,0,0,0,.484-7.04q0-2.684-.066-3.85a14.172,14.172,0,0,0-.33-2.332,3.187,3.187,0,0,0-.814-1.672A1.968,1.968,0,0,0,99.88-13.9a2.546,2.546,0,0,0-1.5.462,3.516,3.516,0,0,0-.946.9,1.578,1.578,0,0,0-.286.572q.132,1.408.132,6.512L97.108-1.98q0,.352-1.408.616a12.983,12.983,0,0,1-2.288.264L92-1.32a60.569,60.569,0,0,0,.4-6.666,19.542,19.542,0,0,0-.33-4.356A1.6,1.6,0,0,0,90.332-13.6a2.827,2.827,0,0,0-2.376,1.408,4.438,4.438,0,0,0-.968,2.156v.924l.044,4.664A24.572,24.572,0,0,1,86.856.088q-1.1,1.056-4.62,1.056-.352,0-.352-.132A46.177,46.177,0,0,0,82.192-5.456Zm44.836-4.356q0,5.5.132,6.424a5.729,5.729,0,0,0,1.5,3.476q0,.484-1.738,1.452a6.592,6.592,0,0,1-3.146.968q-.4,0-.836-1.166A8.218,8.218,0,0,1,122.43-.4q-.066-.572-.11-.572l-.132.088A8.527,8.527,0,0,1,116.732.968,6.979,6.979,0,0,1,111.914-.55a5.092,5.092,0,0,1-1.694-3.982A7.592,7.592,0,0,1,111.3-8.69a7.868,7.868,0,0,1,2.53-2.574,13.837,13.837,0,0,1,3.212-1.408,14.564,14.564,0,0,1,4.224-.88l.088-.044q0-2.156-5.456-2.156a21.334,21.334,0,0,0-3.212.176h-.044a5.987,5.987,0,0,1,.55-2.2,6.393,6.393,0,0,1,.924-1.716q.374-.4,3.146-.4,5.016,0,7.392,1.914t2.376,5.918ZM122.144-7V-8.668a4.035,4.035,0,0,0-.044-.968A8.55,8.55,0,0,0,117-8.1a2.879,2.879,0,0,0-1.364,2.42,2.019,2.019,0,0,0,.66,1.54,2.845,2.845,0,0,0,2,.616,4.8,4.8,0,0,0,2.6-.792A2.925,2.925,0,0,0,122.144-7Z"
+                            transform="translate(-1.1 30.536)" fill="#f28482" /></svg>
+                </div>
+
+                <div class="col-4 col-sm-4 col-md-5">
+                    <a class="nav-link active" href="#">Jobs</a>
+                    <a class="nav-link" href="#">Developer</a>
+                    <a class="nav-link" href="#">Terms</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+
+                <div class="col-8 col-sm-5 col-md-3 sosmed text-right">
+                    <p>(+62) 87-7899-9787</p>
+                    <p>info@autisma.com</p>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-facebook.svg" class="ml-3 mb-2"></a>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-instagram.svg" class="ml-3 mb-2"></a>
+                    <a href=""><img src="img/sosmed/Icon ionic-logo-twitter.svg" class="ml-3 mb-2"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col text-center copyright">
+                    <p>All rights reserved by Autisma 2019.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- AKhir Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
