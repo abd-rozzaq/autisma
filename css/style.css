@@ -208,9 +208,6 @@ fill-opacity: 1;
     padding-bottom: 5rem;
 }
 
-.tentang-kami .col-4 img {
-    width: 30rem;
-}
 
 
 .border-bottom {
@@ -220,7 +217,6 @@ fill-opacity: 1;
 .tentang-kami p {
     color: #7d879c;
     margin-top: 1.75rem;
-    width: 26em;
     line-height: 1.75em;
     font-size: 1.075rem;
 }
@@ -658,17 +654,23 @@ filter: drop-shadow(0px 0px 8px rgba(125, 135, 156, .5));
     }
 
 .panah-carousel-kanan-home {
-        margin-right: 1.825rem;
-     }
+transform: translateX(-1.625rem);    
+}
 
 .panah-carousel-kiri-home {
-        margin-left: 10.425rem;
+    transform: translateX(9.625rem);   
      }
 
 .carousel-rekomendasi-home .carousel-item img {
         box-shadow: 0px 5px 10px #D5D5D51A;
         border-radius: 10px;
     }
+
+@media only screen and (max-width: 600px) {
+        .produk-rekomendasi h3 {
+          font-size: 1.75rem;
+        }
+}
 
 /* Cart */
 .cart-header h3 {
@@ -1210,4 +1212,12 @@ margin-top: -2rem;
 
 .header-3-new img {
         transform: translate(-1.175rem,-9.775rem);
+}
+
+
+
+/* penjelasan */
+.customer-persona .card, .font-penjelasan .card, .warna-penjelasan .card {
+    border-style: none;
+    box-shadow: 0px 10px 20px #7D879C26;
 }
