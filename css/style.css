@@ -961,10 +961,17 @@ margin: auto;
 }
 
 /* Blog */
+@media (max-width: 576px) { 
+    .event-blog h1, .artikel-populer h1, .post-blog-terbaru h1 {
+            font-size: 1.75rem !important;
+     }
+ }
+
 .headline-blog, .daftar-blog-post-kanan, .daftar-blog-webinar-kanan, .post-blog-terbaru-list, .daftar-artikel-populer,.event-blog-list {
     border-style: none;
     background-color: transparent;
 }
+
 
 .headline-blog img {
     box-shadow: 0px 5px 15px #D5D5D533;
@@ -980,6 +987,38 @@ margin: auto;
    font-size: 35px;
    margin-top: 1.625rem;
 }
+
+@media (max-width: 576px) { 
+    .headline-blog h3 {
+            font-size: 1.55rem;
+     }
+ }
+
+ @media (max-width: 576px) { 
+    .headline-blog p {
+             font-size: 1rem !important;
+     }
+ }
+
+ @media (max-width: 576px) { 
+    .daftar-blog-post-kanan a {
+           margin-bottom: 1.425rem;
+    }
+ }
+
+ @media (max-width: 576px) { 
+    .daftar-blog-post-kanan h5, .post-blog-terbaru-isi h3, .body-blog h5, .event-blog-list h3 {
+             font-size: 1.15rem !important;
+     }
+ }
+
+
+ @media (max-width: 576px) { 
+    .daftar-blog-webinar-kanan h5 {
+             font-size: 1.15rem !important;
+     }
+ }
+
 
 .headline-blog p {
    font-size: 18px;
